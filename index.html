@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+        <!-- Option 1: Include in HTML -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <title>Legends Insulation Service</title>
+    </head>
+
+    <body>
+
+        <!-- HEADER -->
+        
+        <div class="flex" id="header" >
+            <h3>Legends Insulation Services</h3>
+            <div id="header-list">
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#footer">Contact</a>
+            </div>
+
+            <div id="menu-btn">
+                <button onclick=handleModal()>
+                    <i class="bi bi-list"></i>
+                </button>
+            
+            </div>
+
+            <div id="menu-modal" >
+                <div class="flex" id="header-modal-list">
+                    <a href="#services">Services</a>
+                    <a href="#about">About</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#footer">Contact</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- LANDING -->
+
+        <div id="landing">
+            <div class="flex" id="landing-container">
+                <div id="landing-title">
+                    <h1>Professional Insulation Services</h1>
+                    <h2>Ensuring Comfort & Efficiency in every project</h2>
+                </div>
+ 
+            </div>
+            <img src="./assets/landing.webp" alt="landing image" srcset="">
+        </div>
+
+        <!-- SERVICES -->
+
+        <div class="flex" id="services">
+            <div id="service-title">
+                <h1>Our Services</h1>
+            </div>
+        
+            <div class="flex" id="service-list">
+
+                <div class="service-card flex">
+                    <img src="./assets/residential.webp" alt="residential image" srcset="">
+                    <h2>Home Insulation</h2>
+                    <p>Enhance your home's energy efficiency with our top-notch insulation services.</p>
+                </div>
+
+                <div class="service-card flex">
+                    <img src="./assets/commerical.webp" alt="commercial image" srcset="">
+                    <h2>Commercial Insulation</h2>
+                    <p>Professional insulation solutions for commercial buildings, ensuring optimum performance.</p>
+                </div>
+
+                <div class="service-card flex">
+                    <img src="./assets/industrial.webp" alt="industrial image" srcset="">
+                    <h2>Industrial Insulation</h2>
+                    <p>Reliable and durable insulation services for industrial facilities.</p>
+                </div>
+            </div>
+        
+
+        </div>
+        
+        <!-- ABOUT US -->
+
+        <div class="flex" id="about">
+            <h1>About Us</h1>
+            <div id="about-p">
+                <p>Legends Insulation Services has been providing top-quality insulation solutions for over a decade. Our team of experts is dedicated to ensuring your comfort and energy efficiency through our professional services. We use the latest technology and materials to guarantee the best results for your home, commercial, or industrial projects.</p>
+            </div>
+            
+        </div>
+
+        <!-- Testimonials -->
+
+        <div class="flex" id="testimonials">
+            <h1>What our Clients Say</h1>
+            <div class="flex"  id="testimony-list">
+
+                <div class="testimony-card flex">
+                    <h4>"The team at Legends Insulation Services did an amazing job on our home. We have noticed a significant reduction in our energy bills!"</h4>
+                    <p>- Sarah Johnson</p>
+                </div>
+    
+                <div class="testimony-card flex">
+                    <h4>"Professional and efficient service. Our commercial building is now much more comfortable year-round."</h4>
+                    <p>- Michael Lee</p>
+                </div>
+    
+                <div class="testimony-card flex">
+                    <h4>"Highly recommend Legends Insulation Services. They delivered exactly what they promised and more."</h4>
+                    <p>- Emily Davis</p>
+                </div>
+            </div>
+       
+        </div>
+
+        <!-- CONTACT -->
+
+        <div class="flex" id="footer">
+            <h1>Contact Us</h1>
+            <p>For more information about our services or to get a quote, please contact us at:</p>
+
+            <div class="contact-info flex">
+                <p>Phone: (123) 456-7890</p>
+                <p>Email: info@legendsis.com</p>
+            </div>
+
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
